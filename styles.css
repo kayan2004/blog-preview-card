@@ -1,0 +1,82 @@
+@font-face {
+  font-family: myFont;
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: myFont;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0;
+  font-size: 12px;
+  color: hsl(0, 0%, 7%);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 1px solid hsl(0, 0%, 7%);
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 10px 10px hsl(0, 0%, 7%);
+  width: min-content;
+}
+svg {
+  width: 279px;
+  height: 166.07px;
+  border-radius: 20px;
+}
+.flex-items {
+  align-self: center;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  width: min-content;
+  height: min-content;
+  margin: 20px;
+}
+.section {
+  margin: 20px 0 20px 0;
+  background-color: hsl(47, 88%, 63%);
+  height: 26px;
+  width: 70px;
+  text-align: center;
+  line-height: 26px;
+  font-weight: 800;
+
+  border-radius: 3px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 10px 0 0 0;
+}
+.title:hover {
+  cursor: url(./black-pointer.png), auto;
+  transition: 0.3s;
+  color: hsl(47, 88%, 63%);
+}
+p {
+  line-height: 18px;
+  font-weight: medium;
+}
+
+.author-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+}
+.author-container img {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-right: 14px;
+}
